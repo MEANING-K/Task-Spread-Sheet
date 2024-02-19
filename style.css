@@ -1,0 +1,37 @@
+#export-btn {
+    background: #04ab46;
+    color: white;
+    border: none;
+    padding: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+/*Cell 스타일 생성하기*/
+.cell-row {
+    display: flex;
+}
+
+.cell {
+    width: 80px;
+    border: 1px solid lightgray;
+    height: 40px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.cell:focus {
+    background: #ddd;
+    border: 3px solid lightblue;
+}
+
+.cell.header {
+    text-align: center;
+    background: #ddd;
+} 
+
+.cell.header.active {
+    background: lightblue;
+    color: white;
+}
