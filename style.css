@@ -1,5 +1,5 @@
 #export-btn {
-    background: rgb(36, 168, 113);
+    background: #04AB46;
     color: white;
     border: none;
     padding: 10px;
@@ -23,7 +23,7 @@
 
 .cell:focus {
     background: #e9e9e9;
-    border: 3px solid rgb(95, 204, 159);;
+    border: 3px solid lightblue;;
 }
 
 .cell.header {
@@ -32,6 +32,6 @@
 } 
 
 .cell.header.active {
-    background: rgb(95, 204, 159);
+    background: lightblue;
     color: white;
 }
